@@ -1,9 +1,6 @@
 *** Comments ***
 Documentation
 ...Suite with registration tests
-*** Comments ***
-Documentation
-...suite with logged out user test
 
 *** Settings ***
 Resource            ../main/support/base.robot

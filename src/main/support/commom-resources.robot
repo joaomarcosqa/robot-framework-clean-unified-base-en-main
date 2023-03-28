@@ -25,7 +25,7 @@ ${testName}
 
 *** Keywords ***
 Open App
-    Set Appium Timeout    20
+    Set Appium Timeout    60
     IF    "${device}" == "android"    Start Android
     IF    "${device}" == "ios"    Start IOS
     IF    "${device}" == "browserstack-android"    Start Browserstack Android
